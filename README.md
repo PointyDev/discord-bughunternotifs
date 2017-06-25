@@ -21,7 +21,7 @@ The last 4 can be installed by running `installdependancies.bat` if you have `pi
 * [Download the repo](https://github.com/PointyDev/discord-bughunternotifs/archive/master.zip)
 * Install dependancies (see above)
 * Duplicate `default_settings.py` and rename to `settings.py`
-* Open `settings.py` and configure as wanted (see next section)
+* Open `settings.py` IN A TEXT EDITOR and configure as wanted (see next section)
 * Run `start.bat`
 
 ## How to configure
