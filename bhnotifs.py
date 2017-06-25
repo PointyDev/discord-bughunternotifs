@@ -83,9 +83,15 @@ async def on_message(message):
                 return
         elif message.channel.id in reportchannels and message.author.id == "240545475118235648" and "trello.com/c/" in message.content:
             if approvedEnabled:
-                reporttype = message.channel.name.split("-")[0].capitalize()
-                if reporttype == "Ios":
+                channeltype = message.channel.name.split("-")[0]
+                if channeltype == "general" and generalEnabled:
+                    reporttype = "General"
+                elif channeltype == "android" and androidEnabled:
+                    reporttype = "Android"
+                elif channeltype == "ios" and iOSEnabled:
                     reporttype = "iOS"
+                elif channeltype == "linux" and linuxEnabled:
+                    reporttype = "Linux"
                 author = messagelines[1][14:-2]
                 title = messagelines[2][23:]
                 reportids = []
