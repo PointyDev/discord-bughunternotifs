@@ -1,3 +1,4 @@
+_Due to the nature of this project, it is classified as a "userbot" (a user account that automatically responds to users other than itself). "Userbots" are not allowed on Discord, and therefore I must state that I am not liable for any damages done to your account (i.e. warnings and bans) while using this program, as per the [license](https://github.com/PointyDev/discord-bughunternotifs/blob/master/LICENSE). Find out more [here](https://discordapp.com/terms)._
 # Discord Bug Hunter Notifications
 Small bot for Discord Bug Hunters that has custom configurable notifications for bug reports.
 
