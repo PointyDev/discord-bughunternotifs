@@ -92,6 +92,8 @@ async def on_message(message):
                     reporttype = "iOS"
                 elif channeltype == "linux" and linuxEnabled:
                     reporttype = "Linux"
+                else:
+                    return
                 author = messagelines[1][14:-2]
                 title = messagelines[2][23:]
                 reportids = []
